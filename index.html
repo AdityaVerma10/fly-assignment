@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Income Tax Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="incomeForm">
+        <div class="form-group">
+          <label for="grossIncome"
+            >Enter gross annual income
+            <span
+              class="error-icon"
+              id="grossIncomeErrorIcon"
+              title="Please enter a valid number"
+              >!</span
+            >
+            <div class="tooltip-container">
+              ?
+              <span class="tooltip-text"
+                >Gross annual income is your total salary in a year before any
+                deductions</span
+              >
+            </div>
+          </label>
+
+          <input
+            type="text"
+            id="grossIncome"
+            placeholder="Enter gross annual income"
+          />
+        </div>
+        <div class="form-group">
+          <label for="extraIncome"
+            >Enter extra income
+            <span
+              class="error-icon"
+              id="extraIncomeErrorIcon"
+              title="Please enter a valid number"
+              >!</span
+            >
+            <div class="tooltip-container">
+              ?
+              <span class="tooltip-text"
+                >Enter any additional income you expect to receive, such as
+                bonuses or dividends.</span
+              >
+            </div>
+          </label>
+          <input
+            type="text"
+            id="extraIncome"
+            placeholder="Enter extra income from other sources"
+          />
+        </div>
+        <div class="form-group">
+          <label for="ageGroup"
+            >Enter age group
+            <span
+              class="error-icon"
+              id="ageErrorIcon"
+              title="Age group is mandatory"
+              >!</span
+            >
+            <div class="tooltip-container">
+              ?
+              <span class="tooltip-text"
+                >Select the age group that you belong to. Different age groups
+                may have different tax considerations.</span
+              >
+            </div>
+          </label>
+          <select id="ageGroup">
+            <option value="">Select age group</option>
+            <option value="under40"><40</option>
+            <option value="40to60">≥ 40 & < 60</option>
+            <option value="60plus">≥ 60</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="deductions"
+            >Enter total applicable deductions
+            <span
+              class="error-icon"
+              id="deductionsErrorIcon"
+              title="Please enter a valid number"
+              >!</span
+            >
+            <div class="tooltip-container">
+              ?
+              <span class="tooltip-text"
+                >Enter the total of any deductions you can apply to reduce your
+                taxable income, such as health insurance or retirement
+                contributions.</span
+              >
+            </div>
+          </label>
+          <input
+            type="text"
+            id="deductions"
+            placeholder="Add total applicable deductions"
+          />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="resultModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="resultupperbox">Your overall income will be</p>
+        <p id="resultText">Your tax is:</p>
+        <p id="resultlowerbox">after text deductions</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
