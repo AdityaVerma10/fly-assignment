@@ -61,8 +61,8 @@ function calculateTax() {
 }
 
 function validateInput(fieldId, value) {
-
-  if (isNaN(value) || value < 0) {
+  
+  if (isNaN(value) || value < 0 || (fieldId=='grossIncome' && value=='')) {
     document.getElementById(fieldId + "ErrorIcon").classList.add("visible");
     return false;
   }
