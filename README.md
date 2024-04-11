@@ -19,4 +19,8 @@
 <li>Lastly, For Windows users, you might right-click the file and choose "Open with" and select your browser.For macOS, you can also right-click (or Ctrl+click) the file and select "Open With" > [Your Browser]. Alternatively, dragging the file into an open browser window will also work.</li>
 
 <h1>Viewing the Project</h1>
-Once you've opened the index.html file in your browser, you should be able to see the project running. Navigate through the application to see its features and functionalities
+Once you've opened the index.html file in your browser, you should be able to see the project running. Navigate through the application to see its features and functionalities <br>
+
+<h1>Sample Screenshots</h1>
+![Screenshot 2024-04-12 005834](https://github.com/AdityaVerma10/fly-challenge/assets/119062848/e3796765-c5d6-4185-ad00-49628ffba884)
+![Screenshot 2024-04-12 005849](https://github.com/AdityaVerma10/fly-challenge/assets/119062848/0fa0adad-8a1e-479a-ade2-961ea4526926)
