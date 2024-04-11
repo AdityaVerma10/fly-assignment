@@ -22,5 +22,6 @@
 Once you've opened the index.html file in your browser, you should be able to see the project running. Navigate through the application to see its features and functionalities <br>
 
 <h1>Sample Screenshots</h1>
-![Screenshot 2024-04-12 005834](https://github.com/AdityaVerma10/fly-challenge/assets/119062848/e3796765-c5d6-4185-ad00-49628ffba884)
-![Screenshot 2024-04-12 005849](https://github.com/AdityaVerma10/fly-challenge/assets/119062848/0fa0adad-8a1e-479a-ade2-961ea4526926)
+
+![Screenshot 2024-04-12 005834](https://github.com/AdityaVerma10/fly-challenge/assets/119062848/be08df63-ef5c-4b16-9828-8fd67a1e792d)
+![Screenshot 2024-04-12 005849](https://github.com/AdityaVerma10/fly-challenge/assets/119062848/e02c73d3-5793-477b-bd58-004e6f73a2fd)
